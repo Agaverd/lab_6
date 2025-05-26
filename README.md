@@ -2,19 +2,19 @@
 
 ## SOLID Principles explanation
 
-**S — Single Responsibility Principle**  
+**S â€” Single Responsibility Principle**  
 A class should have only one reason to change, meaning it should have only one job or responsibility.
 
-**O — Open/Closed Principle**  
+**O â€” Open/Closed Principle**  
 Software entities should be open for extension, but closed for modification.
 
-**L — Liskov Substitution Principle**  
+**L â€” Liskov Substitution Principle**  
 Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program. 
 
-**I — Interface Segregation Principle**  
+**I â€” Interface Segregation Principle**  
 Clients should not be forced to depend on interfaces they do not use.
 
-**D — Dependency Inversion Principle**  
+**D â€” Dependency Inversion Principle**  
 High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.
 
 ## Usage in this code
@@ -59,4 +59,4 @@ This is an example of Single Responsibility Principle.
 
 ## Conlusion
 This priciples is really my piece of cake. It helps you to make code easy to extension and repack small parts into blocks.
-I can explain. If i need to make app with diiferernt use-rules (admin, avg_user) i can separate functinality into different functions and after all create two classes with different amount of functionality/rights.
+I can explain. If i need to make app with diiferernt use-rules (admin, avg_user) i can separate functinality into different functions and after all create two classes with different amount of functionality/rights. This is an example of **Interface segregation principle**__
