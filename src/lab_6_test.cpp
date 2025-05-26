@@ -1,4 +1,4 @@
-#include <lab6_test.hpp>
+#include <lab_6_test.hpp>
 
 namespace test
 {
