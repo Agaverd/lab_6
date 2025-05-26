@@ -51,3 +51,12 @@ in `lab_6_test_.hpp`
 ```
 These functions are responsible for printing a vector and checking equality of two vectors. Each of them has a single responsibility.
 This is an example of Single Responsibility Principle.
+
+## Strategy
+- This pattern incapsulates algorithms and makes them interchangeable.
+- It makes so easy to add new algorithms without changing the code that uses them.
+- Decrease amount of ternaty operator of choosing right algorythm
+
+## Conlusion
+This priciples is really my piece of cake. It helps you to make code easy to extension and repack small parts into blocks.
+I can explain. If i need to make app with diiferernt use-rules (admin, avg_user) i can separate functinality into different functions and after all create two classes with different amount of functionality/rights.
