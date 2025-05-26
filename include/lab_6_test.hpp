@@ -4,7 +4,7 @@
 #define LAB_6_TEST_HPP
 
 #include <iostream>
-#include <lab6.hpp>
+#include <lab_6.hpp>
 
 namespace test
 {
