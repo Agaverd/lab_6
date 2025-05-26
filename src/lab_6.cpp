@@ -1,4 +1,4 @@
-#include <lab6.hpp>
+#include <lab_6.hpp>
 
 namespace lab
 {
